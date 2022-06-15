@@ -1,0 +1,28 @@
+main{
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    background-image: url(https://globe24.cz/pictures/photo/2016/04/30/germany-1157536-1280-393f4e7dd3-660x371.jpg);
+}
+header{
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+}
+.column {
+    float: left;
+    padding: 10px;
+  }
+  .column.side {
+    width: 25%;
+  }
+  .column.middle {
+    width: 50%;
+    text-align: center;
+  }
+  .footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }

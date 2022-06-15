@@ -1,0 +1,32 @@
+main{
+    text-align: center;    
+    background-color: #343a40;
+    color: white;
+}
+header{
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+}
+.column {
+    float: left;
+    padding: 10px;
+  }
+  .column.side {
+    width: 25%;
+  }
+  .column.middle {
+    width: 50%;
+    text-align: center;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
